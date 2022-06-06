@@ -3,29 +3,34 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32510.428
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIGateway", "APIGateway\APIGateway.csproj", "{F7A6FEBA-CA3F-499C-B718-0AE593CA1421}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIGateway", "APIGateway\APIGateway.csproj", "{F7A6FEBA-CA3F-499C-B718-0AE593CA1421}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{7109596C-5EE1-443C-BA36-D816EBD4983A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contact.API", "Services\ContactAPI\Contact.API\Contact.API.csproj", "{CF7F0306-32DB-4D15-B7D5-A7904360E30C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contact.API", "Services\ContactAPI\Contact.API\Contact.API.csproj", "{CF7F0306-32DB-4D15-B7D5-A7904360E30C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservation.API", "Services\RestAPI\Reservation.API\Reservation.API.csproj", "{98A9042B-9AA1-41C1-8170-31CA77581C47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reservation.API", "Services\RestAPI\Reservation.API\Reservation.API.csproj", "{98A9042B-9AA1-41C1-8170-31CA77581C47}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ContactAPI", "ContactAPI", "{BD9F5EF2-4632-4036-96BE-510B87578D91}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReservationAPI", "ReservationAPI", "{84AC8EC2-0B8C-45D2-9D66-5A0ABB66DBA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contact.API.Infrastructure", "Services\ContactAPI\Contact.API.Infrastructure\Contact.API.Infrastructure.csproj", "{FAEB3883-C5DE-4957-802A-D8C454297030}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contact.API.Infrastructure", "Services\ContactAPI\Contact.API.Infrastructure\Contact.API.Infrastructure.csproj", "{FAEB3883-C5DE-4957-802A-D8C454297030}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contact.API.Models", "Services\ContactAPI\Contact.API.Models\Contact.API.Models.csproj", "{FBAEAF1F-FC87-4FA6-B70F-B9537E5B2D96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contact.API.Models", "Services\ContactAPI\Contact.API.Models\Contact.API.Models.csproj", "{FBAEAF1F-FC87-4FA6-B70F-B9537E5B2D96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contact.API.Services", "Services\ContactAPI\Contact.API.Services\Contact.API.Services.csproj", "{D90636B1-8ADC-4D26-82F7-409785F558EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contact.API.Services", "Services\ContactAPI\Contact.API.Services\Contact.API.Services.csproj", "{D90636B1-8ADC-4D26-82F7-409785F558EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservation.API.Infrastructure", "Services\RestAPI\Reservation.API.Infrastructure\Reservation.API.Infrastructure.csproj", "{EF2DB03A-E358-45E9-85D8-99C556B2DFAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reservation.API.Infrastructure", "Services\RestAPI\Reservation.API.Infrastructure\Reservation.API.Infrastructure.csproj", "{EF2DB03A-E358-45E9-85D8-99C556B2DFAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservation.API.Services", "Services\RestAPI\Reservation.API.Services\Reservation.API.Services.csproj", "{52BEBA0D-F1A5-401E-87F5-77C251A017EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reservation.API.Services", "Services\RestAPI\Reservation.API.Services\Reservation.API.Services.csproj", "{52BEBA0D-F1A5-401E-87F5-77C251A017EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservation.API.Models", "Services\RestAPI\Reservation.API.Models\Reservation.API.Models.csproj", "{1BB5C957-9FEE-4F2B-BBCB-2564BC072A08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reservation.API.Models", "Services\RestAPI\Reservation.API.Models\Reservation.API.Models.csproj", "{1BB5C957-9FEE-4F2B-BBCB-2564BC072A08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{514327E4-46F6-4A7F-81CC-84E9FFE47850}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

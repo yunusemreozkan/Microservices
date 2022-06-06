@@ -6,7 +6,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
+          "Host": "c_res_api",
           "Port": 44370
         }
       ],
@@ -21,7 +21,7 @@
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "localhost",
+          "Host": "c_contact_api",
           "Port": 44390
         }
       ],
